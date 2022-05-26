@@ -9,16 +9,13 @@ body {
   background-color: hsl(233, 47%, 7%);
   justify-content: center;
   align-items: center;
-  font-family: "Kumbh Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 15px;
   color: hsl(0, 0%, 100%);
 }
 
 .card {
   display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
   width: 1110px;
   margin-top: 177px;
   height: 446px;
@@ -32,7 +29,22 @@ body {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   height: 100%;
-  width: 55%;
+  width: 50%;
+}
+
+h1 {
+  margin-left: 72px;
+  margin-right: 95px;
+}
+
+h2 {
+  margin-left: 72px;
+  margin-right: 124.5px;
+  margin: 25px 124.5px 0px 72px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  opacity: 0.75;
 }
 
 .images {
@@ -52,6 +64,21 @@ img {
 }
 .elements {
   display: flex;
+  justify-content: space-between;
+  margin-left: 72px;
+  margin-top: 72px;
+  margin-right: 147px;
+}
+.data {
+  font-size: 24px;
+  font-weight: 700;
+}
+.desc {
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.6;
 }
 .attribution {
   font-size: 11px;
