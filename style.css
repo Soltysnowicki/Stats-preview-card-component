@@ -35,6 +35,9 @@ body {
   height: 100%;
   width: 50%;
 }
+ul {
+  list-style: none;
+}
 
 h1 {
   margin-left: 72px;
